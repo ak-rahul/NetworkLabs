@@ -1,6 +1,4 @@
 import java.util.*;
-import java.io.*;
-import java.net.*;
 
 public class Hamming{
     public static void main(String args[]){
@@ -94,5 +92,7 @@ public class Hamming{
         }  else {
             System.out.println("No error");
         }
+
+        sc.close();
     }
 }
